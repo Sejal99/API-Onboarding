@@ -3,6 +3,7 @@ import Signup from './components/SignUp';
 import Signin from './components/Signin';
 import Page from './components/Page';
 import Navbar from './components/Navbar';
+import Info from './components/info';
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
           <Route path={"/signup"} element={<Signup />} />
           <Route path={"/signin"} element={<Signin />} />
           <Route path={"/page"} element={<Page />} />
-        
+          <Route path={"/info"} element={<Info />} />
           </Routes>
         
 
