@@ -4,6 +4,7 @@ import Signin from './components/Signin';
 import Page from './components/Page';
 import Navbar from './components/Navbar';
 import Info from './components/info';
+import Num from './components/Num';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
           <Route path={"/signin"} element={<Signin />} />
           <Route path={"/page"} element={<Page />} />
           <Route path={"/info"} element={<Info />} />
+          <Route path={"/num"} element={<Num />} />
           </Routes>
         
 
