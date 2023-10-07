@@ -5,6 +5,8 @@ import Page from './components/Page';
 import Navbar from './components/Navbar';
 import Info from './components/info';
 import Num from './components/Num';
+import In from './components/in';
+import Logic from './components/logic';
 
 function App() {
     return (
@@ -22,6 +24,8 @@ function App() {
           <Route path={"/page"} element={<Page />} />
           <Route path={"/info"} element={<Info />} />
           <Route path={"/num"} element={<Num />} />
+          <Route path={"/in"} element={<In />} />
+          <Route path={"/"} element={<Logic />} />
           </Routes>
         
 
