@@ -30,7 +30,7 @@ const Page = () => {
     <div>
         {users?.map((user)=> (
             <div key={user.id}>
-                <img src={user.avatar} alt="" />
+                {/* <img src={user.avatar} alt="" /> */}
                 <div style={{display:"flex",gap:"10px"}}>
                 <div>{user.first_name} </div>
                 <div> {user.last_name} </div>
